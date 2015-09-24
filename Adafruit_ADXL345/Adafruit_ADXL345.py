@@ -34,6 +34,7 @@ class Adafruit_ADXL345(Adafruit_I2C):
     ADXL345_REG_DEVID        = 0x00 # Device ID
     ADXL345_REG_DATAX0       = 0x32 # X-axis data 0 (6 bytes for X/Y/Z)
     ADXL345_REG_POWER_CTL    = 0x2D # Power-saving features control
+    ADXL345_REG_DATA_FORMAT  = 0x31 # getRange setRange
 
     ADXL345_DATARATE_0_10_HZ = 0x00
     ADXL345_DATARATE_0_20_HZ = 0x01
